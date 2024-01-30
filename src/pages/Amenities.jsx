@@ -1,12 +1,12 @@
 import React from 'react';
 import { PageHeader } from '../components/index';
 
-const Contact = () => {
+const Amenities = () => {
   return (
     <div>
-      <PageHeader title='CONTACT US' />
+      <PageHeader title='AMENITIES' />
     </div>
   )
 }
 
-export default Contact;
+export default Amenities;

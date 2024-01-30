@@ -1,8 +1,11 @@
 import React from 'react';
+import { PageHeader } from '../components/index';
 
 const Schedule = () => {
   return (
-    <div>Schedule</div>
+    <div>
+      <PageHeader title='SCHEDULE' />
+    </div>
   )
 }
 

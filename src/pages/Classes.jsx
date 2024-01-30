@@ -1,8 +1,11 @@
 import React from 'react';
+import { PageHeader } from '../components/index';
 
 const Classes = () => {
   return (
-    <div>Classes</div>
+    <div>
+      <PageHeader title='CLASSES' />
+    </div>
   )
 }
 

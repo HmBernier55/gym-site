@@ -9,7 +9,7 @@ const Header = () => {
       <nav className='bg-slate-950 px-5 h-16'>
         <div className='flex flex-row justify-between items-center h-full'>
           <Link to='/' className='flex'>
-              <h1 className='font-bold text-lime-400 text-2xl'>RE</h1>
+              <h1 className='font-bold text-lime-500 text-2xl'>RE</h1>
               <h1 className='font-bold text-white text-2xl'>FLEX</h1>
           </Link>
           <div className='h-full w-full'>
@@ -18,10 +18,10 @@ const Header = () => {
                 <NavLink to='/' className={({isActive}) => `h-full px-6 flex items-center hover:bg-slate-800 ${isActive ? 'text-white bg-slate-800' : 'text-gray-500'}`}>HOME</NavLink>
               </li>
               <li className='h-full'>
-                <NavLink to='/about' className={({isActive}) => `h-full px-6 flex items-center hover:bg-slate-800 ${isActive ? 'text-white' : 'text-gray-500'}`}>ABOUT US</NavLink>
+                <NavLink to='/about' className={({isActive}) => `h-full px-6 flex items-center hover:bg-slate-800 ${isActive ? 'text-white' : 'text-gray-500'}`}>ABOUT</NavLink>
               </li>
               <li className='h-full'>
-                <NavLink to='/gallery' className={({isActive}) => `h-full px-6 flex items-center hover:bg-slate-800 ${isActive ? 'text-white' : 'text-gray-500'}`}>GALLERY</NavLink>
+                <NavLink to='/amenities' className={({isActive}) => `h-full px-6 flex items-center hover:bg-slate-800 ${isActive ? 'text-white' : 'text-gray-500'}`}>AMENITIES</NavLink>
               </li>
               <li className='h-full'>
                 <NavLink to='/classes' className={({isActive}) => `h-full px-6 flex items-center hover:bg-slate-800 ${isActive ? 'text-white' : 'text-gray-500'}`}>CLASSES</NavLink>
