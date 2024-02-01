@@ -3,7 +3,6 @@ import About from './About';
 import Classes from './Classes';
 import Amenities from './Amenities';
 import Pricing from './Pricing';
-import Schedule from './Schedule';
 import Contact from './Contact';
 
 
@@ -13,6 +12,5 @@ export {
   Classes,
   Amenities,
   Pricing,
-  Schedule,
   Contact
 }

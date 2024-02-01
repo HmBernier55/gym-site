@@ -10,3 +10,13 @@
 #amenity:hover > #amenity-name {
   opacity: 0;
 }
+
+#class-card:hover > #hid-schedule {
+  opacity: 100%;
+  z-index: 10;
+  height: fit-content;
+}
+
+#landing-page-card:hover > #landing-page-card-image {
+  opacity:70%
+}

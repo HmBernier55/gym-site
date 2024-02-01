@@ -8,7 +8,7 @@ const PriceCard = ({price, benefits, name}) => {
           <p className='text-white font-medium tracking-wider'>{name}</p>
           <p className='text-white text-3xl font-bold'>Membership</p>
         </div>
-        <p className='text-slate-400 absolute font-bold text-6xl top-8 right-8'>{`${price}$`}</p>
+        <p className='text-gray-400 absolute font-bold text-6xl top-8 right-8'>{`${price}$`}</p>
         <ul className='list-disc pl-4'>
           {benefits.map((benefit, index) => (
             <li key={index} className='text-white'>{benefit}</li>

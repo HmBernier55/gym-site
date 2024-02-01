@@ -18,9 +18,6 @@ const Footer = () => {
         <Link to='/classes' className='hover:text-lime-500'>
           CLASSES
         </Link>
-        <Link to='/schedule' className='hover:text-lime-500'>
-          SCHEDULE
-        </Link>
         <Link to='/pricing' className='hover:text-lime-500'>
           PRICING
         </Link>

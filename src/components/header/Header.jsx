@@ -27,9 +27,6 @@ const Header = () => {
                 <NavLink to='/classes' className={({isActive}) => `h-full px-6 flex items-center hover:bg-slate-800 ${isActive ? 'text-white' : 'text-gray-500'}`}>CLASSES</NavLink>
               </li>
               <li className='h-full'>
-                <NavLink to='/schedule' className={({isActive}) => `h-full px-6 flex items-center hover:bg-slate-800 ${isActive ? 'text-white' : 'text-gray-500'}`}>SCHEDULE</NavLink>
-              </li>
-              <li className='h-full'>
                 <NavLink to='/pricing' className={({isActive}) => `h-full px-6 flex items-center hover:bg-slate-800 ${isActive ? 'text-white' : 'text-gray-500'}`}>PRICING</NavLink>
               </li>
               <li className='h-full'>

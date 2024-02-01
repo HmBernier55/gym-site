@@ -5,6 +5,9 @@ import FreePassForm from './forms/FreePassForm';
 import PriceCard from './PriceCard';
 import AmenitiesCard from './AmenitiesCard';
 import ContactForm from './forms/ContactForm';
+import ClassCard from './ClassCard';
+import ClassesScheduleCard from './ClassesScheduleCard';
+import LandingPageCard from './LandingPageCard';
 
 export {
   Header,
@@ -13,5 +16,8 @@ export {
   FreePassForm,
   PriceCard,
   AmenitiesCard,
-  ContactForm
+  ContactForm,
+  ClassCard,
+  ClassesScheduleCard,
+  LandingPageCard
 }

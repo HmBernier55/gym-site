@@ -2,7 +2,7 @@ import React from 'react';
 
 const AmenitiesCard = ({name, description, imageUrl}) => {
   return (
-    <div id='amenity' className='h-[350px] w-[350px] relative rounded-xl'>
+    <div id='amenity' className='h-[350px] w-[350px] relative rounded-xl hover:cursor-default'>
       <img className='object-cover h-[350px] w-[350px] rounded-xl' src={imageUrl} alt={name} />
       <div className='rounded-xl absolute top-0 left-0 h-full w-full bg-gradient-to-b from-transparent to-black'></div>
       <h3 id='amenity-name' className='absolute bottom-10 left-1/2 -translate-x-1/2 font-extrabold text-white text-2xl text-center'>{name}</h3>
