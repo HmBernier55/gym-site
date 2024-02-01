@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+#amenity:hover > #hid-description {
+  height: 100%;
+}
+
+#amenity:hover > #amenity-name {
+  opacity: 0;
+}

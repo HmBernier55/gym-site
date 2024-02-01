@@ -6,7 +6,7 @@ const FreePassForm = () => {
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setName('');
     setEmail('');

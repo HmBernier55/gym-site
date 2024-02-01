@@ -2,7 +2,7 @@ import React from 'react';
 
 const PageHeader = ({title}) => {
   return (
-    <div className='flex h-60'>
+    <div className='flex h-60 w-full'>
       <div className='flex justify-center items-center bg-slate-900 w-1/2'>
         <h1 className='text-white font-bold text-5xl italic'>{title}</h1>
       </div>
