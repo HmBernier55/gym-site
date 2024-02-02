@@ -1,6 +1,5 @@
 import React from 'react';
 import { PageHeader, ClassCard, ClassesScheduleCard } from '../components/index';
-import { lunges, roomOfTreadmills, squatting, yogaClass, ropes, situps, stationaryBike } from '../assets/index';
 
 const Classes = () => {
   return (
@@ -85,36 +84,36 @@ const Classes = () => {
             />
           </div>
         </div>
-        <img className='w-full lg:w-1/2 rounded-xl object-cover' src={lunges} alt="gym class" />
+        <img className='w-full lg:w-1/2 rounded-xl object-cover' src='https://images.unsplash.com/photo-1554284126-aa88f22d8b74?q=80&w=1988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt="gym class" />
       </div>
       <div className='flex flex-col items-center gap-10 py-10'>
         <ClassCard
-          imageUrl={roomOfTreadmills}
+          imageUrl='https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
           name='Cardio Blast'
           description='A high-energy class focused on cardiovascular endurance and fat burning. Incorporates dynamic movements, interval training, and upbeat music to keep you motivated.'
         />
         <ClassCard
-          imageUrl={squatting}
+          imageUrl='https://images.unsplash.com/photo-1596357395217-80de13130e92?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
           name='Strength Sculpt'
           description='This class is designed to build lean muscle and enhance overall strength. It includes a mix of weightlifting, bodyweight exercises, and targeted resistance training to sculpt and tone your body.'
         />
         <ClassCard
-          imageUrl={yogaClass}
+          imageUrl='https://images.unsplash.com/photo-1549576490-b0b4831ef60a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
           name='Yoga Fusion'
           description='A harmonious blend of traditional yoga poses and dynamic movements to improve flexibility, balance, and mindfulness. Suitable for all fitness levels, promoting relaxation and strength.'
         />
         <ClassCard
-          imageUrl={ropes}
+          imageUrl='https://images.unsplash.com/photo-1434596922112-19c563067271?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
           name='HIIT Ignition'
           description='High-Intensity Interval Training (HIIT) class to maximize calorie burn and boost metabolism. Short bursts of intense exercises followed by brief rest periods for a powerful, efficient workout.'
         />
         <ClassCard
-          imageUrl={situps}
+          imageUrl='https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
           name='Core Crusher'
           description='Target and strengthen your core muscles with a variety of abdominal exercises and stability drills. Improve posture, enhance balance, and achieve a strong, toned midsection.'
         />
         <ClassCard
-          imageUrl={stationaryBike}
+          imageUrl='https://images.unsplash.com/photo-1591741535018-d042766c62eb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
           name='Spin Intensity'
           description='A dynamic cycling class led by expert instructors, blending invigorating sprints and challenging terrains for a high-energy, full-body workout that boosts endurance and torches calories.'
         />
