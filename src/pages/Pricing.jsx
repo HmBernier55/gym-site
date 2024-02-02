@@ -5,18 +5,18 @@ const Pricing = () => {
   return (
     <div>
       <PageHeader title='PRICING' />
-      <div className=''>
-        <div className='flex px-20 py-10 space-x-12'>
-          <div className='bg-slate-900 shadow shadow-black w-1/2 border border-black px-8 py-16 space-y-9 rounded-3xl'>
-            <p className='text-3xl font-extrabold text-lime-500 border-b pb-2'>Memberships</p>
+      <div className='flex flex-col items-center'>
+        <div className='flex flex-col lg:flex-row p-10 gap-10'>
+          <div className='bg-slate-900 shadow shadow-black border border-black px-8 py-16 rounded-3xl lg:w-1/2'>
+            <p className='text-3xl font-extrabold text-lime-500 border-b pb-2 mb-3'>Memberships</p>
             <p className='text-white font-medium leading-relaxed'>At Reflex Fitness, we understand that everyone has unique fitness goals, and our range of memberships is designed to cater to individual needs and preferences. Whether you're just starting your fitness journey or aiming for peak performance, our memberships offer a pathway to achieve your goals with added perks and benefits at each level.</p>
           </div>
-          <div className='bg-slate-900 shadow shadow-black w-1/2 px-8 py-16 space-y-9 rounded-3xl'>
+          <div className='bg-slate-900 shadow shadow-black px-8 py-16 rounded-3xl lg:w-1/2'>
             <p className='text-3xl font-extrabold text-lime-500 border-b pb-2'>Free Pass</p>
             <FreePassForm />
           </div>
         </div>
-        <div className='flex'>
+        <div className='grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 w-full'>
           <PriceCard
             price='29'
             benefits={[

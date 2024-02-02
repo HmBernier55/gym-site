@@ -5,11 +5,11 @@ const Classes = () => {
   return (
     <div>
       <PageHeader title='CLASSES' />
-      <div className='flex grid-cols-2 p-7 gap-10 bg-gray-200'>
-        <div className='flex flex-col items-center justify-center gap-10 bg-white rounded-xl px-10 shadow shadow-lg'>
+      <div className='flex flex-col lg:flex-row p-7 gap-10 bg-gray-200'>
+        <div className='flex flex-col items-center justify-center gap-10 bg-white rounded-xl p-5 shadow shadow-lg'>
           <h1 className='font-extrabold text-3xl text-center'>Elevate Your Fitness Journey with Dynamic Workouts for All Levels!"</h1>
           <p className='text-center font-medium leading-relaxed'>Dive into a diverse fitness experience that goes beyond the ordinary. Our classes, led by passionate instructors, cater to all levels, from heart-pounding Cardio Blast to muscle-sculpting Strength Sculpt and rejuvenating Yoga Fusion. Check out our dynamic schedule below for an exciting fitness journey tailored to your goals. Unleash your potential, redefine your limits, and let the transformation begin at Reflex Fitness!</p>
-          <div className='grid grid-cols-3 gap-8'>
+          <div className='grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-8'>
             <ClassesScheduleCard
               name='Cardio Blast'
               times={[
@@ -84,7 +84,7 @@ const Classes = () => {
             />
           </div>
         </div>
-        <img className='w-1/2 rounded-xl' src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74?q=80&w=1988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="gym class" />
+        <img className='w-full lg:w-1/2 rounded-xl object-cover' src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74?q=80&w=1988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="gym class" />
       </div>
       <div className='flex flex-col items-center gap-10 py-10'>
         <ClassCard

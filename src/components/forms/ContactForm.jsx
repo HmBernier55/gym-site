@@ -19,7 +19,7 @@ const ContactForm = () => {
     setMessage('');
   }
   return (
-    <form onSubmit={handleSubmit} className='lg:w-1/2 mx-5 mb-10 rounded-3xl flex flex-col bg-slate-900 px-10 py-10 gap-10'>
+    <form onSubmit={handleSubmit} className='w-11/12 lg:w-3/4 xl:w-1/2 mx-5 mb-10 rounded-3xl flex flex-col bg-slate-900 px-10 py-10 gap-10'>
       <div className='flex flex-col gap-3'>
         <label htmlFor='firstName' className='text-lime-500 text-xl font-bold'>First Name</label>
         <input

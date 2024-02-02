@@ -24,8 +24,8 @@ const About = () => {
             <li><span className='text-xl font-bold underline'>Holistic Wellness:</span> Fitness is not just about what happens in the gym; it's a holistic journey encompassing mind, body, and spirit. Reflex Fitness is committed to promoting overall wellness, offering resources and support for mental health, stress management, and nutritional guidance.</li>
           </ol>
         </div>
-        <div className='flex flex-col px-20 py-20 items-center'>
-          <div className='flex flex-col max-w-2xl items-center space-y-6 bg-slate-900 p-5 text-white rounded-xl'>
+        <div className='flex flex-col py-20 items-center'>
+          <div className='flex flex-col max-w-2xl w-3/4 items-center space-y-6 bg-slate-900 p-5 text-white rounded-xl'>
             <p className='font-bold text-3xl text-lime-500'>Join us:</p>
             <p className='text-center font-medium'>Whether you're looking to build strength, boost your endurance, or simply improve your overall well-being, Reflex Fitness is the place for you. Come join our vibrant community, break barriers, and discover the best version of yourself.</p>
             <button className='bg-lime-500 py-3.5 px-8 rounded-full font-bold text-white tracking-wide hover:bg-lime-600' onClick={() => navigate('/pricing')}>View Memberships</button>

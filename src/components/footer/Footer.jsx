@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div className='bg-slate-950 py-20 px-40 flex justify-between'>
+    <div className='bg-slate-950 py-20 px-40 flex items-center justify-between flex-col lg:flex-row gap-5'>
       <Link to='/' className='flex'>
         <h1 className='font-bold text-lime-500 text-2xl'>RE</h1>
         <h1 className='font-bold text-white text-2xl'>FLEX</h1>
       </Link>
-      <div className='text-white font-medium space-x-9'>
+      <div className='text-white font-medium gap-6 grid lg:grid-cols-5 text-center'>
         <Link to='/about' className='hover:text-lime-500'>
           ABOUT
         </Link>
