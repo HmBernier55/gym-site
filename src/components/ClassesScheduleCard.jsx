@@ -2,7 +2,7 @@ import React from 'react';
 
 const ClassesScheduleCard = ({times, name}) => {
   return (
-    <div id='class-card' className='relative bg-gray-200 shadow-lg text-slate-950 font-medium flex justify-center items-center p-3 w-48 hover:bg-gray-300 hover:cursor-default'>
+    <div id='class-card' className='relative bg-gray-200 shadow-lg text-slate-950 font-medium flex justify-center items-center p-3 w-52 hover:bg-gray-300 hover:cursor-default'>
       <p>{name}</p>
       <div id='hid-schedule' className='absolute overflow-hidden ease-out duration-500 top-full opacity-0 h-0 w-full'>
         <div className='bg-gradient-to-b from-gray-200 to-white text-slate-950 rounded-br-lg rounded-bl-lg p-3 text-sm flex gap-3'>
