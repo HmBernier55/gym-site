@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { LandingPageCard } from '../components';
+import { liftingBarbel, proteinShake, yogaClass, payment } from '../assets/index';
 
 const Home = () => {
 
@@ -9,7 +10,7 @@ const Home = () => {
   return (
     <div className='flex flex-col items-center'>
       <div className='relative bg-black'>
-        <img className='opacity-55' src='https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='lifting barbel' />
+        <img className='opacity-55' src={liftingBarbel} alt='lifting barbel' />
         <div className='absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/4 flex flex-col items-center'>
           <div className='tracking-wide font-bold text-3xl sm:text-7xl flex gap-3'>
             <div className='flex'>
@@ -32,19 +33,19 @@ const Home = () => {
           <Link to='/amenities'>
             <LandingPageCard
               name='Amenities'
-              imageUrl='https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+              imageUrl={proteinShake}
             />
           </Link>
           <Link to='/classes'>
             <LandingPageCard
               name='Classes'
-              imageUrl='https://images.unsplash.com/photo-1549576490-b0b4831ef60a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+              imageUrl={yogaClass}
             />
           </Link>
           <Link to='/pricing'>
             <LandingPageCard
               name='Pricing'
-              imageUrl='https://images.unsplash.com/photo-1556742111-a301076d9d18?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+              imageUrl={payment}
             />
           </Link>
         </div>
