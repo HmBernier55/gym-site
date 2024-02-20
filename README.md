@@ -1,4 +1,6 @@
 # Reflex Fitness - React Front-End Site
+![site-screenshot](./src/assets/reflex-fitness.png)
+#### [Reflex Fitness Site](https://reflex-gym-site.netlify.app/)
 ### Author:
 Hunter Bernier
 ### Description:
